@@ -13,8 +13,7 @@ for i in range(10):
 for i in lista:
     if i%2==0:
         listapar.append(i)
-for i in lista:
-    if i%2!=0:
+    else:
         listaimpar.append(i)
         listaimpar.append(lista.index(i))
 print(len(listapar))

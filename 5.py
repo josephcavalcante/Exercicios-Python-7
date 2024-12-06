@@ -17,12 +17,11 @@ for i in range(10):
 for i in lista:
     if i<18:
         lista_m.append(i)
-for i in lista:
     if 18>=i<=59:
         lista_a.append(i)
-for i in lista:
     if i>59:
         lista_i.append(i)
+       
 print('A quantidade de pessoas menor de idade:',len(lista_m))
 print('A quantidade de pessoas adulta:',len(lista_a))
 print('A quantidade de pessoas idosos:',len(lista_i))

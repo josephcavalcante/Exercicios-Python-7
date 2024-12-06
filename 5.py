@@ -17,9 +17,9 @@ for i in range(10):
 for i in lista:
     if i<18:
         lista_m.append(i)
-    if 18>=i<=59:
+    elif 18>=i<=59:
         lista_a.append(i)
-    if i>59:
+    else:
         lista_i.append(i)
        
 print('A quantidade de pessoas menor de idade:',len(lista_m))
